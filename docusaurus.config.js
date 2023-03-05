@@ -11,15 +11,15 @@ const config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://muhammadmoiz-research-and-dev-doc.netlify.app/",
+  url: "https://abdulmoizshaikh.github.io",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/research-and-development-documentation-public/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "abdulmoizshaikh", // Usually your GitHub org/user name.
+  projectName: "research-and-development-documentation-public", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -120,19 +120,19 @@ const config = {
               },
             ],
           },
-          {
-            title: "More",
-            items: [
-              {
-                label: "Blog",
-                to: "/blog",
-              },
-              {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
-              },
-            ],
-          },
+          // {
+          //   title: "More",
+          //   items: [
+          //     {
+          //       label: "Blog",
+          //       to: "/blog",
+          //     },
+          //     {
+          //       label: "GitHub",
+          //       href: "https://github.com/facebook/docusaurus",
+          //     },
+          //   ],
+          // },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
