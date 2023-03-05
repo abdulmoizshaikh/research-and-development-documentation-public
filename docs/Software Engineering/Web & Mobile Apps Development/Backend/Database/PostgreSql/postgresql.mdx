@@ -1,0 +1,161 @@
+### How to start and stop postgresql in Linux ?
+
+Solution:
+
+```bash showLineNumbers
+sudo service postgresql start
+sudo service postgresql stop
+sudo service postgresql restart
+```
+
+https://www.codegrepper.com/code-examples/sql/how+to+start+and+stop+postgresql+in+linux
+
+### PgAdmin 4:
+
+:::info
+pgAdmin4 linux client password is `12345`
+:::
+
+**Can we do horizontal scaling in sql ?**
+
+The main reason **relational databases cannot scale horizontally** is due to the flexibility of the query syntax. SQL allows you to add all sorts of conditions and filters on your data such that it's impossible for the database system to know which pieces of your data will be fetched until your query is executed.06-Jan-2020
+
+setup pgadmin 4 on ubuntu
+
+https://www.pgadmin.org/download/pgadmin-4-apt/
+
+**How to Install and Setup PostgreSQL server on Ubuntu 20.04**
+
+https://www.cherryservers.com/blog/how-to-install-and-setup-postgresql-server-on-ubuntu-20-04
+
+## Triggers in PostgreSQL
+
+To Track all modifications to a PostgreSQL table
+
+https://www.youtube.com/watch?v=9vn8cRDpEi4&ab_channel=BlessyVarghese
+
+**how to get previous date in postgresql**
+
+records from yesterday in postrgesql
+
+```sql showLineNumbers
+WHERE workorder.createdtime > current_date - 1     -- Yesterday and today
+
+WHERE workorder.createdtime > current_timestamp - interval '1 day' -- last 24hr
+```
+
+https://stackoverflow.com/questions/17912088/records-from-yesterday-in-postrgesql
+
+**how to access nested json key in raw query in postgresql**
+
+how to access nested json in prisma
+
+#### PostgreSQL Nested JSON Querying
+
+This is because operator ->> gets JSON array element as text. You need a cast to convert its result back to JSON.
+
+You can eliminate this redundant cast by using operator ->:
+
+```sql showLineNumbers
+
+select person->'dogs'->0->'breed' from people where id = 77;
+
+```
+
+Demo used in hefazat api project
+
+```sql showLineNumbers
+  H.TITLE HEFAZATPRODUCTTYPE,
+  CASE
+				  WHEN C."rates" ->> 'partnerShare' IS NOT NULL
+									  AND (C."hefazatProductTypeId" = 'AD'
+														  OR C."hefazatProductTypeId" = 'ADPAD'
+														  OR C."hefazatProductTypeId" = 'APAD') THEN C."cost" * ((C."rates" ->> 'partnerShare')::FLOAT4 / 100)
+				  WHEN C."rates" ->> 'priceSlabs' IS NOT NULL
+									  AND C."productPrice" >= (C."rates" -> 'priceSlabs' -> 0 -> 'minPrice')::FLOAT4
+									  AND C."productPrice" <= (C."rates" -> 'priceSlabs' -> 0 -> 'maxPrice')::FLOAT4 THEN C."productPrice" * ((C."rates" -> 'priceSlabs' -> 0 -> 'partnerRisk')::FLOAT4 / 100)
+				  ELSE C."productPrice" * ((C."rates" ->> 'partnerRisk')::FLOAT4 / 100)
+  END COMMISSIONRATE,
+  C."updatedAt"::date ISSUEDATE,
+
+```
+
+https://stackoverflow.com/questions/24944347/postgresql-nested-json-querying
+
+How to Round off to two decimal places?
+
+postgresql round float value to 2 decimal places
+
+Rounding the result from CASE statement
+
+Postgres sql round to 2 decimal places
+
+Solution:
+just replace `FLOAT4` with `numeric` in query
+
+```sql showLineNumbers
+
+CASE
+					WHEN C."rates" ->> 'partnerShare' IS NOT NULL
+										AND (C."hefazatProductTypeId" = 'AD'
+															OR C."hefazatProductTypeId" = 'ADPAD'
+															OR C."hefazatProductTypeId" = 'APAD') THEN C."cost" * ((C."rates" ->> 'partnerShare')::numeric / 100)
+					WHEN C."rates" ->> 'priceSlabs' IS NOT NULL
+										AND C."productPrice" >= (C."rates" -> 'priceSlabs' -> 0 -> 'minPrice')::numeric
+										AND C."productPrice" <= (C."rates" -> 'priceSlabs' -> 0 -> 'maxPrice')::numeric THEN C."productPrice" * ((C."rates" -> 'priceSlabs' -> 0 -> 'partnerRisk')::numeric / 100)
+					ELSE C."productPrice" * ((C."rates" ->> 'partnerRisk')::numeric / 100)
+	END AS RETAILER_COMMISSION,
+```
+
+function round(double precision, integer) does not exist
+
+https://stackoverflow.com/questions/52220166/postgres-sql-round-to-2-decimal-places
+
+## Reporting or Reports Generation tools
+
+**5 Best PostgreSQL Reporting Tools**
+
+1. Apache Superset
+2. Tableau
+3. Metabase
+4. Looker
+5. Google Data Studio (recommended by imtiaz orangefox)
+
+https://hevodata.com/learn/5-best-postgresql-reporting-tools/#gds
+
+### google data studio postgresql
+
+> Can Google Data Studio connect to PostgreSQL?
+
+However, Google Data Studio does not only connect with Google Suite's products but also can integrate with External Data Sources or Database Management Applications like PostgreSQL, SQL, and MySQL.14-Mar-2022
+
+> Does Google use PostgreSQL?
+
+If you're deep into the Google Cloud ecosystem, then a fully managed PostgreSQL database service may sound familiar. The company, after all, already offers CloudSQL for PostgreSQL and Spanner, Google Cloud's fully managed relational database service also offers a PostgreSQL interface.11-May-2022
+
+> Google Data Studio Explained in 100 seconds
+
+<iframe
+  width="100%"
+  height="460"
+  src="https://www.youtube.com/embed/IN6VsMUGPW8"
+  title="Google Data Studio Explained in 100 seconds"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen="true"
+></iframe>
+
+https://www.youtube.com/watch?v=IN6VsMUGPW8&ab_channel=MeasureSchool
+
+## Get data for previous month in postgresql
+
+how to fetch record of last month in postgresql
+
+```showLineNumbers sql
+SELECT *
+FROM Conference
+WHERE date_start >= date_trunc('month', current_date - interval '1' month)
+  and date_start < date_trunc('month', current_date)
+```
+
+https://stackoverflow.com/questions/37587910/get-data-for-previous-month-in-postgresql#:~:text=date_trunc('month'%2C%20current_date%20%2D,day%20of%20%22this%22%20month.
