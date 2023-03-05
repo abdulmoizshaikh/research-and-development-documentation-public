@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
+  title: "My research-and-development-documentation-public site",
   tagline: "Documentation website",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://abdulmoizshaikh.github.io",
+  url: "https://muhammadmoiz-research-and-dev-doc-public.netlify.app/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/research-and-development-documentation-public/",
+  baseUrl: "/",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
