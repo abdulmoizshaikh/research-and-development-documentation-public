@@ -8,5 +8,6 @@ CTRL + SHIFT + I
 
 ## Typora rich interface screenshot
 
-![typora image](../../assets/images/image96.png)
-![typora dark theme](../../assets/images/image100.png)
+![typora image](https://raw.githubusercontent.com/S3-bucket-for-image-hosting/research-website-images-repo/main/assets/images/image96.png)
+
+![typora dark theme](https://raw.githubusercontent.com/S3-bucket-for-image-hosting/research-website-images-repo/main/assets/images/image100.png)
