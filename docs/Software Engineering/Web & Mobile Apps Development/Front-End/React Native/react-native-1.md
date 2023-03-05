@@ -69,7 +69,7 @@ https://github.com/retyui/react-native-confirmation-code-field/tree/4f9637acb4d2
 
 Code: https://github.dev/retyui/react-native-confirmation-code-field/blob/4f9637acb4d26c9c9a95b5acf901d140825a7c5e/examples/DemoCodeField/src/AnimatedExample/index.js
 
-![image](../../../../../assets/images/image129.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image129.png)
 
 https://github.com/retyui/react-native-confirmation-code-field/blob/4f9637acb4d26c9c9a95b5acf901d140825a7c5e/examples/DemoCodeField/src/MaskExample/index.js
 

@@ -816,7 +816,7 @@ Sol
 Added google-service.json file from firebase console in androdi/app folder of project
 after check application id is same os our app package name like com.artishnft right now on both places are same.
 
-![image](../../../../../../assets/images/image145.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image145.png)
 
 Solution (Recomended)
 Steps:
@@ -901,7 +901,7 @@ Calculator UI is disturbing when switch native keyboard with custom keyboard iss
 
 [Hisaab app][customer transaction screen] - When user first enter Notes field , afterwards tap on (Rs) 0.00 to enter amount, UI get disturbs until keyboard get close.
 
-![image](../../../../../../assets/images/image146.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image146.png)
 
 Video :
 https://drive.google.com/file/d/1adBxhky4a0u0foGec1dEKyeJBmXInhjV/view?usp=sharing
@@ -974,7 +974,7 @@ At the root of your project you need to have a file named gradle.properties cont
 org.gradle.jvmargs=-Xmx4608m
 ```
 
-![image](../../../../../../assets/images/image147.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image147.png)
 
 https://stackoverflow.com/questions/27438145/out-of-memory-error-java-heap-memory-on-android-studio
 
@@ -1026,7 +1026,7 @@ Error: Command failed: ./gradlew app:installDebug -PreactNativeDevServerPort=808
 Note: /home/muhammadmoiz/Documents/office/hisaab-app/node_modules/appcenter-crashes/android/src/main/java/com/microsoft/appcenter/reactnative/crashes/AppCenterReactNativeCrashesListener.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.\*\*
 
-![image](../../../../../../assets/images/image148.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image148.png)
 
 Solution
 Try creating the build again
@@ -1091,7 +1091,7 @@ https://stackoverflow.com/questions/68835157/error-when-trying-to-run-my-react-n
 https://github.com/react-native-video/react-native-video/issues/2454
 
 **compiling js failed react native?**
-![image](../../../../../../assets/images/image149.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image149.png)
 
 Solution
 Update Metro-react-native-babel-preset to the latest version and check it should be added in babal config file for your react native project (babel.config.js)
@@ -1122,13 +1122,13 @@ Solution:
 <View onTouchEnd={() => this.doSomething()} /> (this fix my issue recommended on both android and ios)
 ```
 
-![image](../../../../../../assets/images/image150.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image150.png)
 
 https://stackoverflow.com/questions/41948900/react-native-detect-tap-on-view
 
 My code e.g:
 
-![image](../../../../../../assets/images/image151.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image151.png)
 
 **Was trying to run react native package of older version so these I have found not completely successfull but some tips to debug issues and fix but still the project was not successful run .**
 
@@ -1168,7 +1168,7 @@ https://stackoverflow.com/questions/20939568/error-error-installing-cocoapods-er
 
 **Animated: `useNativeDriver` was not specified.**
 
-![image](../../../../../../assets/images/image152.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image152.png)
 
 https://stackoverflow.com/questions/61014661/animated-usenativedriver-was-not-specified-issue-of-reactnativebase-input
 
@@ -1187,17 +1187,17 @@ $ Cd android
 $ ./gradlew --version
 ```
 
-![image](../../../../../../assets/images/image153.png)
-![image](../../../../../../assets/images/image154.png)
-![image](../../../../../../assets/images/image155.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image153.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image154.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image155.png)
 
 **Click on this icon (project structure) from android studio to open gradle setting**
 
-![image](../../../../../../assets/images/image156.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image156.png)
 
 **Now click on gradle settings**
 
-![image](../../../../../../assets/images/image157.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image157.png)
 
 **error: package androidx.annotation does not exist
 import androidx.annotation.NonNull;**
@@ -1206,7 +1206,7 @@ import androidx.annotation.NonNull;**
 
 solution:
 
-![image](../../../../../../assets/images/image158.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image158.png)
 
 https://stackoverflow.com/questions/56069906/cant-resolve-symbol-android-support-v4-util-pools-in-react-native-gesture-handl
 
@@ -1257,7 +1257,7 @@ task copyDownloadableDepsToLibs(type: Copy) {
 
 https://stackoverflow.com/questions/69044250/build-gradle-error-could-not-get-unknown-property-compile
 
-![image](../../../../../../assets/images/image159.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image159.png)
 
 To sync gradle in android studio use this elephant icon
 
@@ -1283,7 +1283,7 @@ https://stackoverflow.com/questions/54923622/unsupported-top-level-event-type-on
 
 **Unsupported top level event type "onGestureHandlerStateChange" dispatched #320 **
 
-![image](../../../../../../assets/images/image160.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image160.png)
 
 https://github.com/software-mansion/react-native-gesture-handler/issues/320
 
@@ -1314,7 +1314,7 @@ android build not creating issues fixed due to 2 packages of asyn storage one is
 
 This was the fix.
 
-![image](../../../../../../assets/images/image161.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image161.png)
 
 Using this package working fine and issue fixed.
 No need of multidex true line
@@ -1342,7 +1342,7 @@ Tips error duplicate **“[CP] Copy Pods Resources” (iOS)**
 remove vector icons fonts from folder Resources
 Good Luck
 
-![image](../../../../../../assets/images/image162.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image162.png)
 
 Steps :
 
@@ -1360,7 +1360,7 @@ https://stackoverflow.com/questions/42410354/unrecognized-font-family-on-ios-sim
 https://codewithchris.com/common-mistakes-with-adding-custom-fonts-to-your-ios-app/#includefonts
 https://garbagevalue.com/blog/use-custom-fonts-in-react-native
 
-![image](../../../../../../assets/images/image163.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image163.png)
 
 22 Answers
 
@@ -1498,7 +1498,7 @@ and in the function ReactNative Host () I added
 
 It worked like a charm
 
-![image](../../../../../../assets/images/image164.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image164.png)
 
 https://github.com/software-mansion/react-native-reanimated/issues/846 recommended
 
@@ -1558,7 +1558,7 @@ Or
 
 Using npm
 
-![image](../../../../../../assets/images/image165.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image165.png)
 
 https://github.com/callstack/react-native-paper/issues/2603
 
@@ -1718,7 +1718,7 @@ https://github.com/react-navigation/react-navigation/issues/6700
 1. react-native run-android (debug)
 2. Cd android && ./gradlew assembleRelease (relase build in release folder)
 
-![image](../../../../../../assets/images/image166.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image166.png)
 
 **Note: Make sure gradle.properties does not include org.gradle.configureondemand=true as that will make the release build skip bundling JS and assets into the app binary.**
 
@@ -1823,7 +1823,7 @@ export const formatTimestamp = (date, format) => date && moment(date).local().fo
 @Muhammad Moiz @Zubair Mehboob Whereever we are using moment to format date, please use utc() along with it to avoid the hours difference i-e
 moment(date).utc().format('DD/MM/YY') (edited)
 
-![image](../../../../../../assets/images/image167.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image167.png)
 
 **Q- When any app is not working properly or not installing properly ?**
 

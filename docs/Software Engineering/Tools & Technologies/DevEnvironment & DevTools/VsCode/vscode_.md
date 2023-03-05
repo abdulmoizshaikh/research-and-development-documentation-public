@@ -369,7 +369,7 @@ https://stackoverflow.com/questions/50975264/prettier-settings-for-vscode
 how to remove unused code in visual studio code
 #how to remove unused imports in vscode
 
-![image](../../../../../assets/images/image176.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image176.png)
 
 https://marketplace.visualstudio.com/items?itemName=kuscamara.remove-unused-imports
 https://stackoverflow.com/questions/46722701/is-there-a-way-to-remove-unused-imports-and-declarations-from-angular-2 https://stackoverflow.com/questions/46722701/is-there-a-way-to-remove-unused-imports-and-declarations-from-angular-2
@@ -412,7 +412,7 @@ TO check if shortcut key already exist
 
 Type: Open keyboard shortcuts Enter
 Select this line
-![image](../../../../../assets/images/image177.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image177.png)
 
 **How to rename multiple files in vscode (visual studio code)?**
 
@@ -422,7 +422,7 @@ I wonder, if there is way to rename multiple files in visual studio code? I have
 
 Sol
 
-![image](./../../../../../assets/images/image175.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image175.png)
 
 https://stackoverflow.com/questions/44223988/how-to-rename-multiple-files-in-vscode-visual-studio-code#:~:text=Go%20to%20the%20Expl
 

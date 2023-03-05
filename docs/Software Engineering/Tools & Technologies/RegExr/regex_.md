@@ -27,7 +27,7 @@ https://www.codegrepper.com/code-examples/javascript/regex+remove+whitespace+and
 
 https://regexr.com/
 
-![image](./../../../../assets/images/image169.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image169.png)
 
 **RegEX**
 

@@ -39,8 +39,8 @@ https://firebase.google.com/docs/reference/node/firebase.database.Reference#off
 
 Paginate data with query cursors
 
-![plot](../../../../assets/images/image75.png)
-![plot](../../../../assets/images/image6.png)
+![plot](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image75.png)
+![plot](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image6.png)
 
 https://firebase.google.com/docs/firestore/query-data/query-cursors
 
@@ -139,7 +139,7 @@ https://firebase.google.com/docs/auth/admin/create-custom-tokens#:~:text=Firebas
 
 If you are unable to use a Firebase Admin SDK, Firebase also provides support for sending messages to devices via a POST request:
 
-![image](./../../../../assets/images/image178.png)
+![image](./../../../../](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets)
 
 https://rnfirebase.io/messaging/notifications#via-rest
 
@@ -154,12 +154,12 @@ To go beyond notification messages and add other, more advanced behavior to your
 
 https://firebase.google.com/docs/cloud-messaging/android/receive
 
-![image](./../../../../assets/images/image179.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image179.png)
 https://firebase.google.com/docs/cloud-messaging/android/receive#edit-the-app-manifest
 
 **Firebase short url\_**
 
-![image](./../../../../assets/images/image180.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image180.png)
 **Migrate from URL Shortener to Firebase Dynamic Links**
 
 https://firebase.google.com/support/guides/url-shortener
@@ -175,7 +175,7 @@ https://firebase.google.com/docs/hosting/custom-domain
 
 domain and path prefix are being released. please retry in one month
 
-![image](./../../../../assets/images/image181.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image181.png)
 https://stackoverflow.com/questions/57503507/dynamic-links-domain-and-path-prefix-are-being-released-please-retry-in-one-m
 
 ### Facebook:

@@ -79,7 +79,7 @@ Implementation in hisaab app of retailo
 
 Arrow up and down animation for click here purpose:
 
-## ![image ](../../../../../assets/images/image125.png)
+## ![image ](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image125.png)
 
 Code :
 

@@ -578,13 +578,13 @@ Access to XMLHttpRequest at 'http://192.168.0.198:8081/symbolicate' from origin 
 
 :::
 
-![demo1](./../../../../../assets/images/image107.png)
-![demo2](./../../../../../assets/images/image108.png)
+![demo1](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image107.png)
+![demo2](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image108.png)
 
 you can see API calls from your terminal as well no need to run debugger if your laptop is not of high specs
 this way your development will be fast because it's light weight
 
-![demo2](./../../../../../assets/images/image109.png)
+![demo2](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image109.png)
 
 https://stackoverflow.com/questions/33997443/how-can-i-view-network-requests-for-debugging-in-react-native
 
@@ -594,7 +594,7 @@ https://medium.com/att-israel/debugging-react-native-de1f5396fe83#:~:text=react%
 but chrome debugger with react native have some issues like this so recommended option is react native debugger to debugging react native apps
 :::
 
-![demo2](./../../../../../assets/images/image110.png)
+![demo2](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image110.png)
 
 ## Project Structure
 
@@ -2287,11 +2287,11 @@ https://stackoverflow.com/questions/56561761/how-to-animate-a-single-view-one-by
 
 Its just use to access state and dispatch of a reducer we can pass root reducer in it to access all actions and states in reducer.
 
-![IMAGE](./../../../../../assets/images/image131.png)
+![IMAGE](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image131.png)
 
 https://reactjs.org/docs/hooks-reference.html#usereducer
 
-![IMAGE](./../../../../../assets/images/image132.png)
+![IMAGE](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image132.png)
 
 **mobile screen sharing in ubuntu**
 
@@ -2327,7 +2327,7 @@ https://medium.com/@mushtaque87/qrcode-generator-for-react-native-391ae401e275
 React-native-qrcode (not recommended)
 https://www.npmjs.com/package/react-native-qrcode
 
-![IMAGE](./../../../../../assets/images/image133.png)
+![IMAGE](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image133.png)
 
 **How to get a versionName in react-native app on Android?**
 
@@ -2859,7 +2859,7 @@ https://support.google.com/googleplay/answer/7003180?hl=en
 
 #### AB testing in react native
 
-![ab testing](./../../../../../assets/images/image134.png)
+![ab testing](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image134.png)
 
 **How to clean Android Build Cache**
 
@@ -3157,7 +3157,7 @@ Where as useMemo takes function calling whenever props change in passed child fu
 If prop is not changed then its cached and don’t call child function.
 https://www.w3schools.com/react/react_usecallback.asp
 
-![image](./../../../../../assets/images/image135.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image135.png)
 
 https://youtu.be/nQVCkqvU1uE?t=1288
 
@@ -3364,7 +3364,7 @@ https://www.npmjs.com/package/react-native-rename (Zubair has renamed the projec
 react-native-rename NPM version NPM monthly downloads NPM total downloads Paypal Donate
 Rename react-native app with just one command
 
-![rename gif](./../../../../../assets/images/image136.gif)
+![rename gif](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image136.gif)
 
 https://cloud.githubusercontent.com/assets/5106887/24444940/cbcb0a58-149a-11e7-9714-2c7bf5254b0d.gif
 
@@ -4606,7 +4606,7 @@ https://github.com/xcarpentier/react-native-country-picker-modal/issues/306
 
 add selectedCountries and excludeCountries?? #281
 
-![image](./../../../../../assets/images/image137.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image137.png)
 
 https://github.com/xcarpentier/react-native-country-picker-modal/issues?q=is%3Aissue+list
 https://github.com/xcarpentier/react-native-country-picker-modal/issues/281
@@ -4638,8 +4638,8 @@ React Native: mobile number validation accept numeric value only
 Error fixes
 https://github.com/xcarpentier/react-native-country-picker-modal/issues/334
 
-![IMAGE](./../../../../../assets/images/image138.png)
-![IMAGE](./../../../../../assets/images/image139.png)
+![IMAGE](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image138.png)
+![IMAGE](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image139.png)
 
 **Q.can we share async storage across different apps (Is AsyncStorage shared across apps? - Stack Overflow)**
 
@@ -4665,7 +4665,7 @@ https://reactnative.dev/blog/2016/08/19/right-to-left-support-for-react-native-a
 OR
 **Received status code 502 from server: Bad Gateway #24082**
 
-![image](./../../../../../assets/images/image140.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image140.png)
 
 https://status.bintray.com/ 502 Bad Gateway
 https://github.com/facebook/react-native/issues/24082
@@ -4675,7 +4675,7 @@ https://stackoverflow.com/questions/49510176/android-studio-gradle-sync-failed-c
 
 **PDF downloading from url work in react native**
 
-![image](./../../../../../assets/images/image141.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image141.png)
 
 #### React navigation:
 
@@ -4995,7 +4995,7 @@ Koi package of only queue system isliye use nhe kia q k us ke downloads both km 
 
 **UML diagram :**
 
-![image](./../../../../../assets/images/image130.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image130.png)
 
 https://www.linkedin.com/pulse/offline-first-approach-understanding-various-architecture-/?trk=organization-update-content_share-article
 
@@ -5204,7 +5204,7 @@ https://stackoverflow.com/questions/64365300/how-can-i-remove-unused-imports-dec
 
 Toggle in react native like IOS in react native android phone tested working like IOS toggle (Y)
 
-![image](./../../../../../assets/images/image141.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image141.png)
 
 https://www.npmjs.com/package/toggle-switch-react-native
 
@@ -5290,7 +5290,7 @@ https://firebase.google.com/products/dynamic-links?gclid=Cj0KCQiA_8OPBhDtARIsAKQ
 
 urdu transation k liye wo link diyega jo usama ne diya tha
 
-![image](./../../../../../assets/images/image143.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image143.png)
 
 https://www.ijunoon.com/transliteration/?type=162202216738
 
@@ -5300,7 +5300,7 @@ https://www.ijunoon.com/transliteration/?type=162202216738
 #“react i18n dynamic text” Code Answer
 #Internationalize dynamic messages
 
-![image](./../../../../../assets/images/image144.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image144.png)
 
 https://stackoverflow.com/questions/55000798/react-i18next-and-replacing-placeholder-keys-with-components
 
@@ -6134,7 +6134,7 @@ Margin-right: ‘auto’
 />
 ```
 
-![image](./../../../../../assets/images/image194.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image194.png)
 
 ### React Native R&D
 

@@ -12,7 +12,7 @@ takeEvery(AuthTypes.SIGN_UP, signUpUser),
 to
 takeLatest(AuthTypes.SIGN_UP, signUpUser),
 
-![image](../../../../../assets/images/image168.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image168.png)
 
 Action jaise hi call hoga to saga ka subscribed event call hojaega jo k success or failed ka action call krke redux ko update krega
 
