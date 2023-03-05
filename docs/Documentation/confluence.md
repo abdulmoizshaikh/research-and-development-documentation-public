@@ -29,5 +29,5 @@ you can create space in confluence
 
 space is just like collection of files / folder
 
-![confluence space](../../assets/images/image105.png)
-![confluence space](../../assets/images/image106.png)
+![confluence space](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image105.png)
+![confluence space](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image106.png)
