@@ -27,7 +27,7 @@ static code analyzer, code smells ,issues, best practices improvement k liye use
 
 He is doing code using vim and it has some features which are not available in our modern IDE’s:
 
-![image](./../../../assets/images/image197.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image197.png)
 
 https://www.youtube.com/watch?v=BRn6UCw35og
 

@@ -6,7 +6,7 @@ NewsImagesVideosMore
 
 Featured snippet from the web
 
-![image](./../../../assets/images/image195.jpg)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image195.jpg)
 
 **satellite communication, in telecommunications, the use of artificial satellites to provide communication links between various points on Earth. ... Approximately 2,000 artificial satellites orbiting Earth relay analog and digital signals carrying voice, video, and data to and from one or many locations worldwide.**
 
@@ -27,7 +27,7 @@ https://www.submarinecablemap.com/
 
 ### Technologies:
 
-![image](./../../../assets/images/image196.png)
+![image](https://s3-bucket-for-image-hosting.github.io/research-website-images-repo/assets/images/image196.png)
 
 https://app.fireflies.ai/
 
